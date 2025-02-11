@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    background: #1C1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Inter";
+    font-weight: 400;
+    
+}
+
+h1 {
+    font-family: "Karla";
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+    }
+h2 {
+    font-family: "Karla";
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    margin: 0px 0px 15px 0px;
+    padding: 0px 0px;
+    }
+
+span {
+    color: #4ADF86;
+}
+
+p {
+    margin: 5px 0px;
+    padding: 0px;
+    color: #D5D4D8
+}
+
+hr {
+    background: #273549;
+    width: 420px; 
+    margin: 20px 0px;
+}
+
+#generator {
+    background: #1F2937;
+    width: 434px;
+    height: 500px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#pass-length {
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    background: #FFFFFF;
+    color: black;
+    font-family: "Inter";
+    font-weight: 800;
+    font-size: 25px;
+    border: none;
+    border-radius: 6px;
+    width: 60px;
+    height: 45px;
+    text-align: center;
+    appearance: none;
+    margin: 3px 10px 0px 0px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.parenthesis {
+    font-size: 10px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+button {
+    background: #10B981;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    width: 200px;
+    height: 45px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+#include-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.include-btn{
+    background: #273549;
+    width: 120px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 25px 0px ;
+    border: 2px solid #55F991;
+    color:#55F991;
+}
+.include-btn p {
+    margin: 0px;
+    color: inherit
+}
+
+
+
+#results {
+    display: flex;
+    justify-content: space-between;
+}
+
+h4 {
+    background: #273549;
+    color: #55F991;
+    width: 200px;
+    height: 45px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.password-btn{
+    background: #273549;
+    width: 210px;
+    height: 45px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 25px 0px ;
+    color:#55F991;
+}
