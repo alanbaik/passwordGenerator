@@ -12,20 +12,21 @@ body {
 
 h1 {
     font-family: "Karla";
-    font-size: 25px;
-    font-weight: 800;
-    color: white;
-    margin: 0px 0px 15px 0px;
-    padding: 0px;
-    }
-h2 {
-    font-family: "Karla";
     font-size: 40px;
     font-weight: 800;
     color: white;
     margin: 0px 0px 15px 0px;
     padding: 0px 0px;
-    }
+}
+
+h2 {
+    font-family: "Karla";
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+    margin: 0px 0px 15px 0px;
+    padding: 0px;
+}
 
 span {
     color: #4ADF86;
@@ -38,8 +39,10 @@ p {
 }
 
 hr {
+    border: none;
+    height: 2px;
     background: #273549;
-    width: 420px; 
+    width: 434px; 
     margin: 20px 0px;
 }
 
@@ -103,6 +106,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 54px;
 }
 
 .include-btn{
