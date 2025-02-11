@@ -43,7 +43,7 @@ hr {
     height: 2px;
     background: #273549;
     width: 434px; 
-    margin: 20px 0px;
+    margin: 25px 0px 20px 0px;
 }
 
 #generator {
@@ -127,7 +127,9 @@ button {
     color: inherit
 }
 
-
+#generate-btn:hover {
+    border: 2px solid white;
+}
 
 #results {
     display: flex;
@@ -149,7 +151,7 @@ h4 {
 .password-btn{
     background: #273549;
     width: 210px;
-    height: 45px;
+    height: 58px;
     font-size: 15px;
     display: flex;
     flex-direction: column;
@@ -158,4 +160,7 @@ h4 {
     margin-top: 5px;
     padding: 25px 0px ;
     color:#55F991;
+}
+.password-btn:hover {
+    border: 1px solid #55F991;
 }
